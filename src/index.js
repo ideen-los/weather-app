@@ -1,3 +1,8 @@
+import { getFormData } from './getFormData';
 import './style.scss';
 
-console.log('Everything seems to be working fine.'); // comment
+import { getWeatherData } from './getWeatherData';
+import { printWeatherData } from './printWeatherData';
+
+getFormData();
+printWeatherData();
